@@ -52,10 +52,11 @@ const TalkAbout = ({setCurrent, setPageList}) => {
 
   const onChange = (e) => {
     const {target:{name, value}} = e;
+    const filteredValue = value.replace(/[^A-Za-z]/ig, '');
     if(name === "love"){
-      setLove(value);
+      setLove(filteredValue);
     }else if(name === "hate"){
-      setHate(value);
+      setHate(filteredValue);
     };
   }
   const onSubmit = async(e) => {
@@ -101,7 +102,7 @@ const TalkAbout = ({setCurrent, setPageList}) => {
           id="loveInput"
           name="love"
           type="text"
-          maxLength={20}
+          maxLength={12}
           value={love}
           onChange={onChange} 
           required/>
@@ -141,7 +142,7 @@ const TalkAbout = ({setCurrent, setPageList}) => {
           id="hateInput"
           name="hate"
           type="text"
-          maxLength={20}
+          maxLength={12}
           value={hate}
           onChange={onChange}
           required/>
