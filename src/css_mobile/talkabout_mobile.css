@@ -31,8 +31,8 @@
 
   .eachLove h3,
   .eachHate h3 {
-    font-size: var(--font-large);
-    font-weight: var(--weight-bold);
+    font-size: var(--font-ssmall);
+    font-weight: var(--weight-semi-bold);
     margin: 16px 2px;
   }
   .eachLove .eachLove_time,
