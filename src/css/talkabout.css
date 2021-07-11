@@ -37,7 +37,7 @@
 
 .eachLove h3,
 .eachHate h3 {
-  font-size: var(--font-large);
+  font-size: var(--font-small);
   font-weight: var(--weight-bold);
   margin: 16px 2px;
 }
