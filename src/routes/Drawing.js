@@ -14,7 +14,7 @@ const Drawing = ({setCurrent, setPageList, pageSta}) => {
   const [currentImg, setCurrentImg] = useState("");
   const [wsh, setWsh] = useState("");
 
-  const LIST_drawing = ["Ink", "Oil", " for Pic"];
+  const LIST_drawing = ["Ink", "Oil", "for Pic"];
 
   useEffect(() => {
     setCurrent("My Lovely Drawing");
