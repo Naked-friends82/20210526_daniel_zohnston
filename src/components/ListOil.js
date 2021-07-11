@@ -27,11 +27,11 @@ import yellow from "../drawings/oil/2020/Yellow.jpg";
 //2019
 import actually from "../drawings/oil/2019/Actually_I_love_tragedy.jpg";
 import child from "../drawings/oil/2019/Child.jpg";
-import workingTime from "../drawings/oil/2019/Working_time.JPG";
-import woodInMyPark from "../drawings/oil/2019/Wood_in_my_park.JPG";
+import workingTime from "../drawings/oil/2019/Working_time.jpg";
+import woodInMyPark from "../drawings/oil/2019/Wood_in_my_park.jpg";
 import dairy from "../drawings/oil/2019/Dairy.jpg";
 import digging from "../drawings/oil/2019/Digging.jpg";
-import firework from "../drawings/oil/2019/Firework.JPG";
+import firework from "../drawings/oil/2019/Firework.jpg";
 import goldenSlumber from "../drawings/oil/2019/Golden_slumber.jpg";
 import letsMakeTiger from "../drawings/oil/2019/Let_s_make_tiger.jpg";
 import lullaby from "../drawings/oil/2019/Lullaby.jpg";
