@@ -124,6 +124,7 @@ main {
 .file1,
 .file2 {
   height: 20px;
+  vertical-align: text-bottom;
 }
 .mainImg {
   width: 66%;
