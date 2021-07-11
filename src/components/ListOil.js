@@ -3,21 +3,21 @@ import ImgList from "../components/ImgList";
 import folder2 from '../image/folder2.png';
 
 //2020
-import walk from "../drawings/oil/2020/걷기.jpg";
-import walkPeop from "../drawings/oil/2020/걸어가는자들.jpg";
-import lyingPeop from "../drawings/oil/2020/누어있는자들.jpg";
-import lyingWalk from "../drawings/oil/2020/눕거나걷기.jpg";
-import runAway from "../drawings/oil/2020/달아나기.jpg";
-import follow from "../drawings/oil/2020/따라가기.jpg";
-import untitled__1 from "../drawings/oil/2020/무제_1.jpg";
-import untitled__2 from "../drawings/oil/2020/무제_2.jpg";
-import untitled__3 from "../drawings/oil/2020/무제_3.jpg";
-import untitled__4 from "../drawings/oil/2020/무제_4.jpg";
-import talk from "../drawings/oil/2020/발화.jpg";
-import fire from "../drawings/oil/2020/불지피기.jpg";
-import together from "../drawings/oil/2020/어깨동무.jpg";
-import missed from "../drawings/oil/2020/엇갈리기.jpg";
-import friend from "../drawings/oil/2020/친구하기.jpg";
+import walk from "../drawings/oil/2020/walk.jpg";
+import walkPeop from "../drawings/oil/2020/walkPeop.jpg";
+import lyingPeop from "../drawings/oil/2020/lyingPeop.jpg";
+import lyingWalk from "../drawings/oil/2020/lyingWalk.jpg";
+import runAway from "../drawings/oil/2020/runAway.jpg";
+import follow from "../drawings/oil/2020/follow.jpg";
+import untitled__1 from "../drawings/oil/2020/untitled_1.jpg";
+import untitled__2 from "../drawings/oil/2020/untitled_2.jpg";
+import untitled__3 from "../drawings/oil/2020/untitled_3.jpg";
+import untitled__4 from "../drawings/oil/2020/untitled_4.jpg";
+import talk from "../drawings/oil/2020/talk.jpg";
+import fire from "../drawings/oil/2020/fire.jpg";
+import together from "../drawings/oil/2020/together.jpg";
+import missed from "../drawings/oil/2020/missed.jpg";
+import friend from "../drawings/oil/2020/friend.jpg";
 
 import communist from "../drawings/oil/2020/Communist_State.jpg";
 import dignity from "../drawings/oil/2020/Dignity.jpg";
