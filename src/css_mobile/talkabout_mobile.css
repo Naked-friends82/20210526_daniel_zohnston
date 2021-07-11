@@ -1,8 +1,6 @@
 @media screen and (max-width: 768px) {
   .TA {
-    display: flex;
     flex-direction: column;
-    padding-right: 30px;
   }
   .TA_1,
   .TA_2 {
@@ -23,29 +21,42 @@
     margin-top: 0px;
     font-size: 16px;
     height: 25vh;
-    overflow-y: scroll;
-  }
-  .before {
-    margin-right: 12px;
   }
 
   .eachLove h3,
   .eachHate h3 {
     font-size: var(--font-ssmall);
     font-weight: var(--weight-semi-bold);
-    margin: 16px 2px;
-  }
-  .eachLove .eachLove_time,
-  .eachHate .eachHate_time {
-    margin-right: 12px;
-  }
-  .eachLove .eachLove_contents,
-  .eachHate .eachHate_contents {
-    margin-left: 30px;
-  }
-  ::-webkit-scrollbar-track {
-    background: purple;
   }
 }
 @media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .TA {
+    flex-direction: column;
+  }
+  .TA_1,
+  .TA_2 {
+    flex-basis: auto;
+    height: 33vh;
+    width: 90vw;
+  }
+  .TA_betw {
+    flex-basis: 0%;
+  }
+  .TA_1_submit,
+  .TA_2_submit {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .TA_love,
+  .TA_hate {
+    margin-top: 0px;
+    font-size: 16px;
+    height: 25vh;
+  }
+
+  .eachLove h3,
+  .eachHate h3 {
+    font-size: var(--font-ssmall);
+    font-weight: var(--weight-semi-bold);
+  }
 }
