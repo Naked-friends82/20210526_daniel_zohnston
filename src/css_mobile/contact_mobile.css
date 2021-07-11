@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  .contact {
+    height: 66vh;
+  }
+  .contact .contact_email {
+    left: 0px;
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .contact {
+    height: 66vh;
+  }
+  .contact .contact_email {
+    left: 0px;
+  }
+}

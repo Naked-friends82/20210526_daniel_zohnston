@@ -1,0 +1,54 @@
+@import url("https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Astar");
+.TA {
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px;
+}
+.TA_1,
+.TA_2 {
+  flex-basis: 45%;
+  height: 560px;
+  font-family: var(--typo-eng);
+  font-weight: var(--weight-semi-bold);
+}
+.TA_betw {
+  flex-basis: 10%;
+}
+.TA_1_submit,
+.TA_2_submit {
+  font-family: var(--typo-eng);
+  font-weight: var(--weight-semi-bold);
+  border: none;
+  outline: none;
+  background-color: var(--color-sky);
+  margin-left: 10px;
+  cursor: pointer;
+}
+.TA_love,
+.TA_hate {
+  margin-top: 60px;
+  font-size: 16px;
+  height: 520px;
+  overflow-y: scroll;
+}
+.before {
+  margin-right: 12px;
+}
+
+.eachLove h3,
+.eachHate h3 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  margin: 16px 2px;
+}
+.eachLove .eachLove_time,
+.eachHate .eachHate_time {
+  margin-right: 12px;
+}
+.eachLove .eachLove_contents,
+.eachHate .eachHate_contents {
+  margin-left: 30px;
+}
+::-webkit-scrollbar-track {
+  background: purple;
+}

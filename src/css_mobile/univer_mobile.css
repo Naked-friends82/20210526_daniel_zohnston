@@ -1,0 +1,43 @@
+/* 모바일 버전 */
+@media screen and (max-width: 768px) {
+  main {
+    background-size: 110% 99%;
+    background-position: 0px 0px;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .section_1 {
+    flex-basis: auto;
+    margin: 10px 20px;
+  }
+  .section_1 .section_1_top {
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .section_1 .section_1_top .section_1_top_lists {
+    display: flex;
+    flex-direction: row;
+  }
+  .section_1 .section_1_top .section_1_top_lists .lists {
+    display: inline;
+    margin-left: 10px;
+  }
+  .section_1 .section_1_bott {
+    order: 1;
+    display: flex;
+    margin: 10px 0;
+  }
+  .section_2 {
+    flex-basis: auto;
+    margin: 10px 20px;
+  }
+  .mainImg {
+    width: 100%;
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+}

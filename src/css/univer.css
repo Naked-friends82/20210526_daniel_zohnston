@@ -1,0 +1,134 @@
+/* //set
+//h1은 모든 라우터에 들어간 제목들
+//h2는 라우터 안에서 drawing 컴포넌트의 제목들 pencil, oil 등등
+//h3는 TA라우터의 love, hate들 
+//p는 about과 text의 글들
+//span은 TA의 i love, i hate */
+
+/* Global tags */
+:root {
+  /* color */
+  --color-ashsky: #86beb3;
+  --color-blank: #00000c;
+  --color-pink: #fecaf0;
+  --color-beige: #eee7d8;
+  --color-sky: #2fa5e2;
+  --color-blue: #0004e2;
+  --color-deeppurple: #4d0747;
+  /* Font size */
+  --font-max: 32px;
+  --font-big: 24px;
+  --font-medium: 20px;
+  --font-regular: 16px;
+  --font-small: 14px;
+  --font-ssmall: 13px;
+  /* Font weight */
+  --weight-Extra-bold: 800;
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+  /* Font family */
+  --typo-eng: "Source Code Pro", monospace;
+  --typo-kor: "Noto Serif KR", serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;400;500;600&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
+
+/* Univeral tags */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+/* Each tags */
+h1 {
+  margin: 0px;
+}
+h2 {
+  font-size: var(--font-small);
+  font-weight: var(--weight-bold);
+  margin: 0px;
+}
+h3 {
+  font-size: var(--font-small);
+  font-weight: var(--weight-semi-bold);
+  margin: 0px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0px;
+}
+span {
+  display: inline-block;
+}
+
+main {
+  background-image: url("../image/background.jpg");
+  background-size: 110% 99%;
+  background-position: 10px 0px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow-y: hidden;
+  cursor: default;
+}
+.section_1 {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px 20px;
+}
+.section_1 .section_1_top h1 {
+  width: 160px;
+  font-size: var(--font-ssmall);
+  font-family: var(--typo-eng);
+  background-color: var(--color-blank);
+  color: var(--color-pink);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.section_1 .section_1_top .section_1_top_lists .lists {
+  margin-top: 4px;
+}
+.section_1 .section_1_top button {
+  display: block;
+}
+.section_1 .section_1_bott {
+  font-family: var(--typo-eng);
+  font-weight: var(--weight-semi-bold);
+  background-color: var(--color-blank);
+  color: var(--color-pink);
+  transform: scaleY(1.2);
+}
+
+.section_2 {
+  flex-basis: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px 20px;
+}
+
+.baby {
+  width: 140px;
+  height: 36px;
+}
+/* 파일 이모티콘 */
+.file1,
+.file2 {
+  height: 20px;
+}
+.mainImg {
+  width: 66%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

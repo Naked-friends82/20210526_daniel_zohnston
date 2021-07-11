@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+  .text {
+    height: 66vh;
+    padding-top: 20px;
+  }
+  .text .text_lists {
+    width: 20vw;
+    height: 51vh;
+    margin-right: 10px;
+  }
+  .text_list {
+    margin-bottom: 10px;
+  }
+  .text_list_title {
+    font-size: var(--font-ssmall);
+  }
+  .text .text_boxes {
+    flex-basis: 80%;
+    width: 100%;
+    min-width: 200px;
+    height: 51vh;
+  }
+  .text_content {
+    font-size: var(--font-small);
+    line-height: 28px;
+  }
+  .text_default {
+    font-size: var(--font-small);
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+}

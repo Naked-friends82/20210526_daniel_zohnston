@@ -1,0 +1,60 @@
+.about_1 {
+  height: 90vh;
+  display: flex;
+  margin-left: 20px;
+}
+.about_1 p {
+  height: 400px;
+  font-family: var(--typo-kor);
+  font-size: var(--font-small);
+  color: var(--color-ashsky);
+  overflow-y: hidden;
+}
+
+.about_2 {
+  height: 90vh;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0px;
+  right: 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.about_2 .about_2_1 div,
+.about_2 .about_2_2 div,
+.about_2 .about_2_3 div {
+  margin-left: 150px;
+  margin-top: 20px;
+  font-family: var(--typo-eng);
+  font-size: var(--font-small);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-deeppurple);
+  opacity: 0.9;
+}
+.love_1 {
+  position: relative;
+  left: -100px;
+}
+.love_2 {
+  position: relative;
+  left: 80px;
+}
+.love_3 {
+  position: relative;
+  left: 0px;
+}
+.love_4 {
+  position: relative;
+  left: 40px;
+}
+.love_5 {
+  position: relative;
+  left: -50px;
+}
+.love_6 {
+  position: relative;
+  left: 100px;
+}

@@ -1,0 +1,16 @@
+.contact {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact_email {
+  position: relative;
+  left: -5vw;
+  font-size: var(--font-large);
+  font-family: var(--typo-eng);
+  font-weight: var(--weight-semi-bold);
+}
+/* article {
+  flex-basis: 90%;
+} */

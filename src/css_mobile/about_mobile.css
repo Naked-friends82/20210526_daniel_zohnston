@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+  .about_1 {
+    height: 66vh;
+    margin-left: 20px;
+  }
+  .about_1 p {
+    height: 51vh;
+  }
+  .about_2 {
+    height: 67vh;
+    width: 100%;
+    top: 100px;
+  }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .about_1 {
+    height: 66vh;
+    margin-left: 20px;
+  }
+  .about_1 p {
+    height: 51vh;
+  }
+  .about_2 {
+    height: 67vh;
+    width: 100%;
+    top: 100px;
+  }
+}

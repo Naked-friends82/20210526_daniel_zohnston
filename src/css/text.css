@@ -1,0 +1,37 @@
+.text {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+}
+.text .text_lists {
+  width: 200px;
+  height: 500px;
+}
+.text_list {
+  margin-bottom: 20px;
+}
+.text_list_title {
+  font-size: var(--font-regular);
+  font-family: var(--typo-eng);
+}
+.text .text_boxes {
+  flex-basis: 60%;
+  min-width: 360px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+}
+.text_content {
+  font-size: var(--font-regular);
+  line-height: 32px;
+}
+.text_default {
+  font-family: var(--typo-eng);
+}
+.currentListT {
+  display: inline;
+  background-color: var(--color-blue);
+  color: var(--color-beige);
+}

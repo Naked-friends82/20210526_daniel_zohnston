@@ -1,0 +1,59 @@
+.drawing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.drawing_list {
+  width: 500px;
+  height: 600px;
+  overflow-y: scroll;
+}
+.li {
+  list-style: none;
+  font-size: var(--font-ssmall);
+  font-family: var(--typo-eng);
+  font-weight: var(--weight-semi-bold);
+  margin-top: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.currentList {
+  background-color: var(--color-blue);
+  color: var(--color-pink);
+}
+.drawing_img {
+  flex-basis: 60%;
+  min-width: 360px;
+  /* 줄어들다가 360px 이하로 줄어들진 않는다. */
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  border: solid 2px var(--color-blue);
+  margin-bottom: 30px;
+}
+
+.currentTitle {
+  display: block;
+}
+.caption {
+  width: 300px;
+  text-align: end;
+  font-size: var(--font-ssmall);
+  font-family: var(--typo-eng);
+  font-weight: var(--weight-semi-bold);
+}
+
+.adjust_W {
+  width: 420px;
+}
+.adjust_S {
+  width: 420px;
+}
+.adjust_H {
+  width: auto;
+  height: 420px;
+}
