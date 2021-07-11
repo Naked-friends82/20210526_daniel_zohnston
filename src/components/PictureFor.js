@@ -3,16 +3,16 @@ import folder2 from '../image/folder2.png';
 import ImgList from "../components/ImgList";
 
 //2020
-import end from "../drawings/picture/2020/끝.jpg";
-import see from "../drawings/picture/2020/보이는것.jpg";
-import fixedPic from "../drawings/picture/2020/연출사진.jpg";
-import side from "../drawings/picture/2020/옆모습.jpg";
-import broad from "../drawings/picture/2020/중계.jpg";
+import end from "../drawings/picture/2020/end.jpg";
+import see from "../drawings/picture/2020/see.jpg";
+import fixedPic from "../drawings/picture/2020/fixedPic.jpg";
+import side from "../drawings/picture/2020/side.jpg";
+import broad from "../drawings/picture/2020/broad.jpg";
 import sander from "../drawings/picture/2020/Fur_August_Sander.jpg";
 import sanderBoy from "../drawings/picture/2020/Fur_August_Sander_boy.jpg";
 //2019
-import pray from "../drawings/picture/2019/당신을위해기도합니다.jpg";
-import seeBelieve from "../drawings/picture/2019/보는것은믿는것입니까.jpg";
+import pray from "../drawings/picture/2019/pray.jpg";
+import seeBelieve from "../drawings/picture/2019/seeBelieve.jpg";
 
 
 const PictureFor = ({currentImg, setCurrentImg, setWsh}) => {
