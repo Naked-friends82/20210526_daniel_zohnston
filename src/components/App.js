@@ -6,8 +6,6 @@ import main from "../image/daniel_zohnston_main.jpg";
 import "../css/univer.css";
 import "../css_mobile/univer_mobile.css";
 
-// import { authService } from "../myBase";
-
 
 function App() {
   const [firstImp, setFirstImp] = useState(false);
